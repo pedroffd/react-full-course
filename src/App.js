@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import logo from './logo.svg';
 import './App.css';
 
 /* function App() {
@@ -28,19 +27,34 @@ export default class App extends Component {
     super();
 
     this.state = {
-      string: 'Hello Pedro'
+      monsters: [
+        {
+          name: 'Frankenstein',
+          id: 'asc2'
+        },
+        {
+          name: 'Dracula',
+          id: '43r34f'
+        },
+        {
+          name: 'Satan',
+          id: '43rfd'
+        }
+      ]
     };
+  }
+
+  componentDidMount() {
+    fetch('https://jsonplaceholder.typicode.com/users')
   }
   render(){
     return (
-      <div className='app'>
-        <header className='App-header'>
-          <img src={logo} className='App-logo' alt='logo'/>
-          <p>{this.state.string}</p>
-          <button onClick={() => this.setState({
-            string: 'Text changed'
-          }) }>Change text</button>
-        </header>
+      <div className='App'>
+       {
+         this.state.monsters.map(
+           monster => <h2 key={monster.id}> {monster.name} </h2>
+          )
+       }
       </div>
     )
   }
