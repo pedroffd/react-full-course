@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-full-course/static/css/main.e831a4be.chunk.css",
+    "main.js": "/react-full-course/static/js/main.c7a5a0e4.chunk.js",
+    "main.js.map": "/react-full-course/static/js/main.c7a5a0e4.chunk.js.map",
+    "runtime-main.js": "/react-full-course/static/js/runtime-main.bfca600d.js",
+    "runtime-main.js.map": "/react-full-course/static/js/runtime-main.bfca600d.js.map",
+    "static/js/2.f8b073b9.chunk.js": "/react-full-course/static/js/2.f8b073b9.chunk.js",
+    "static/js/2.f8b073b9.chunk.js.map": "/react-full-course/static/js/2.f8b073b9.chunk.js.map",
+    "static/js/3.d749fe18.chunk.js": "/react-full-course/static/js/3.d749fe18.chunk.js",
+    "static/js/3.d749fe18.chunk.js.map": "/react-full-course/static/js/3.d749fe18.chunk.js.map",
+    "index.html": "/react-full-course/index.html",
+    "static/css/main.e831a4be.chunk.css.map": "/react-full-course/static/css/main.e831a4be.chunk.css.map",
+    "static/js/2.f8b073b9.chunk.js.LICENSE.txt": "/react-full-course/static/js/2.f8b073b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfca600d.js",
+    "static/js/2.f8b073b9.chunk.js",
+    "static/css/main.e831a4be.chunk.css",
+    "static/js/main.c7a5a0e4.chunk.js"
+  ]
+}
